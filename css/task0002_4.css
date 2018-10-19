@@ -1,0 +1,40 @@
+
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            padding: 40px;
+        }
+        
+        ul,li{
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }       
+        
+        li{
+            background-color: #f4f4f4;
+        }
+        
+        .container{
+            width:184px;
+        }
+        
+        .content{
+            width: 180px;
+        }
+        
+        .ullist{
+            display: none;
+        }
+        
+        .ullist li:hover{
+            background-color: #1f8af1;
+            color: #fff;
+        }
+        
+        .active{
+            background-color: #1f8af1;
+            color: #fff;
+        }
