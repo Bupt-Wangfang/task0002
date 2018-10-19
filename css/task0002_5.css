@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    margin: 20px;
+}
+
+#left,#right{
+    position: relative;
+    display: inline-block;
+    margin-left: 200px;
+    width: 180px;
+    min-height: 300px;
+    border: 1px solid black;
+}
+
+#left span,#right span{
+    margin: 0 auto;
+    display: block;
+    background-color: red;
+    border-bottom: 1px solid #2e2e2e;
+    height: 50px;
+    width: 180px;
+    cursor: move;
+}
+
+#left span:last-child,#right span:last-child{
+    border-bottom: none;
+}
